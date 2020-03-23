@@ -1,0 +1,53 @@
+form{
+    width: 95%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+form .filter{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter input {
+    height: 1.6rem;
+    border-right: none;
+    
+}
+.filter button{
+    height: 1.6rem;
+    width: 3.5rem;
+    background-color: #f4f4f4;
+    border: 1px solid #e6e6e6;
+    color: #0094d6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+form >button{
+    height: 1.6rem;
+    width: 3.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    font-size: .7rem;
+    color: #242424;
+    border:1px solid #e6e6e6;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    behavior: url(../css/PIE.htc);
+}
+.filter-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-table .layui-{
+    width: 79%;
+}
+
+.filter-table .layui-table{
+    width: 30%;
+}

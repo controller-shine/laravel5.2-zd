@@ -1,0 +1,196 @@
+.navbar-default {
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.nav-fluid {
+	display: block;
+	max-width: 287px;
+	height: auto;
+	top: 50%;
+	transform: translateY(20%);
+}
+
+
+.navbar-nav {
+	float: none;
+	text-align: center;
+}
+
+
+
+
+
+.ser_nav li {
+	list-style-type: none;
+	float: left;
+	line-height: 45px;
+	font-size: 12px;
+	font-size: 16px;
+	width: 17%;
+	margin-left: 20px
+}
+
+.ser_nav li:nth-child(5) {
+	width: 20%
+}
+
+.ser_nav ul li a {
+	width: 100%;
+	display: block;
+	height: 45px;
+	text-align: center;
+	position: relative;
+	-webkit-perspective: 500px;
+	overflow: hidden;
+	border-radius: 30px;
+	border: 1px solid #CECECE;
+}
+
+.ser_nav li a.cur {
+	background: #149b9e;
+	color: #3e3e3e;
+}
+
+.ser_nav li a .navBox {
+	-webkit-transition: all .2s ease;
+	-webkit-transform-origin: 50% 50% -35px;
+	position: absolute;
+	width: 100%;
+	height: 45px;
+}
+
+.ser_nav li a .navBox.box1 {
+	-webkit-transform: rotateX(90deg);
+	background: #149b9e;
+	color: #fff;
+}
+
+.ser_nav li a .navBox.box2 {
+	-webkit-transform: rotateX(0deg);
+	background: #f7f9f8;
+}
+
+.ser_nav li a:hover .navBox.box1,
+.nav ul li a.navCur .navBox.box1 {
+	-webkit-transform: rotateX(0deg);
+}
+
+.ser_nav li a:hover .navBox.box2,
+.nav ul li a.navCur .navBox.box2 {
+	-webkit-transform: rotateX(-90deg);
+}
+* {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .list_lh li {
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    .list_lh {
+        height: 30px;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    /* 了解详情*/
+    .ab_left ol a {
+        width: 20%;
+        line-height: 40px;
+        border-bottom: 2px solid #5C5A5B;
+        border-top: 2px solid #5C5A5B;
+        height: 40px;
+        display: block;
+        float: left;
+        transition: all 0.6s;
+    }
+    a {
+        color: #5b5a5a;
+        text-decoration: none;
+    }
+    ol, ul, li {
+        list-style-type: none;
+    }
+    .bwzt{
+        margin-top: 30px;
+    }
+    .bwwz{
+        padding: 0px;
+    }
+
+    .bwzt{
+        padding-left: 0px;
+    }
+    .bwtp{
+        padding-left: 0px;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+    .zjbwbt{
+        margin-top: 30px;
+    }
+    .fbt{
+        margin-top: 0px;
+        font-size: 30px;
+        text-align: left;
+        line-height: 30px;
+        color: #373731;
+        margin-bottom: 0px;
+    }
+    .f14{
+        font-size: 14px;
+    }
+    .ljxq a{
+        width: 20%;
+        line-height: 40px;
+        border-bottom: 2px solid #5C5A5B;
+        border-top: 2px solid #5C5A5B;
+        height: 44px;
+        display: block;
+        float: left;
+        transition: all 0.6s;
+        color: #5b5a5a;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .xinwen heixian{
+        width: 5%;
+        height: 1px;
+        background: #3F3D3E;
+        float: left;
+        display: block;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    .lianxi heixian{
+        width: 5%;
+        height: 1px;
+        background: #3F3D3E;
+        float: left;
+        display: block;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .img-scroll { position:relative; margin-top:35px; width:100%; height:370px}
+    .img-list { position:relative; width:100%; height:235px;  overflow:hidden; }
+    .img_list1{ width:100%; height:235px; overflow:hidden; }
+    .img_list1 ul{width:100%; height:235px; overflow:hidden;}
+    .img_list1 ul li{ text-align:left;   float:left; margin-right:19px;width:350px; height:235px; position:relative; overflow:hidden }
+    .img_list1 ul li:last-child{ margin-right:0px}
+    .img_list1 ul li a img{ text-align:center;  display:block;  overflow:hidden; width:350px; height:235px; transition: all 0.6s; }
+    .img_list1 ul li  a:hover img{ text-align:center;  display:block;  overflow:hidden; width:350px; height:235px; transform: scale(1.2); }
+
+    .img_list1 ul li a div { width:0px; height:0px; display:none}
+    .img_list1 ul li a:hover div{ background: url(../images/3index_r2_c2.png) repeat;width:350px; height:235px; position:absolute; top:0px; left:0px; display:block; transition:3s all}
+    .img_list1 ul li a:hover div span{ width:330px; border:1px solid #fff; margin:10px; height:215px; line-height:215px; text-align:center; font-size:16px; display:block; color:#fff}
+    .img_list1 ul li  div  a{ color:#fff}
